@@ -1,0 +1,12 @@
+.brick {
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  border: 1px solid black;
+  transform: translateY(-100px);
+  transition: transform 200ms ease-in-out;
+}
+
+.brick.active {
+  transform: translateY(0px);
+}
