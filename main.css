@@ -10,3 +10,24 @@
 .brick.active {
   transform: translateY(0px);
 }
+
+#gallery {
+  position: relative;
+  padding-bottom: 400px;
+}
+#gallery img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#headers h1 {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+#headers h1.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
